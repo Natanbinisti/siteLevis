@@ -1,0 +1,200 @@
+html, body{
+    margin: 0;
+    font-family: "Arial Black";
+}
+.navbar{
+    padding-top: 3vh;
+    padding-lef: 2vw;
+    padding-right: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.liens{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+.filleHomme{
+    background-image: url("fille-et-homme.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.button {
+    color: white;
+    background-color: white;
+    color: black;
+    padding: 9px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+}
+
+.button1:hover {
+  opacity: 70%;
+}
+.button2{
+    background-color: white;
+    color: black;
+    border: black;
+    border: 1px solid;
+    transition-duration: 0s;
+}
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+.button3 {
+     background-color: #070B21;
+     color: white;
+     transition-duration: 0s;
+    padding: 12px;
+ }
+.gras {
+    font-family: "arial";
+    font-size: bold;
+}
+.organisation {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.texteBlanc {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around  ;
+
+}
+.image:hover {
+}
+.bar {
+    background-color: #C41230;
+    width: 100vw;
+    height: 24vh;
+}
+.titre {
+    font-size: 350%;
+    margin-bottom: 0px;
+}
+.information {
+    color: #B2B2B2;
+    font-size: small;
+}
+.titre2 {
+    font-size: 35px;
+}
+.video {
+    object-fit: cover;
+    display: flex;
+    width: 100vw;
+    height: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.espace{
+    margin-bottom: 40px;
+}
+.textbleu {
+    color: #070B21;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.ambassador{
+    background-image: url("ambassador.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.texteBlanc2 {
+    margin-left: 200px;
+    color: white;
+}
+.button4{
+    text-decoration: none;
+    color: white;
+    border: white;
+    border: 1px solid;
+    transition-duration: 0s;
+    margin-left: 0px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.button4:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0s;
+    border-color: white;
+}
+.espace2 {
+    margin-bottom: 10px;
+}
+.chaussureB{
+    height: 470px;
+    width: 470px;
+}
+.jeanfemme{
+    background-image: url("jeanFemme.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
