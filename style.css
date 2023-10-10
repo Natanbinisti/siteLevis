@@ -1,14 +1,40 @@
 html, body{
     margin: 0;
     font-family: "Arial Black";
+    text-decoration: none;
 }
 .navbar{
     padding-top: 3vh;
-    padding-lef: 2vw;
+    padding-left: 2vw;
     padding-right: 2vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    text-decoration: none;
+}
+.icone {
+    margin-left: 30px;
+}
+.marge {
+    margin-right: 30px;
+}
+.textNavBar{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+.textnavbar2 {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+    }
+.offreSpecial {
+    color: #C41230;
 }
 .liens{
     width: 25%;
@@ -29,7 +55,6 @@ html, body{
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
-
 }
 .button {
     color: white;
