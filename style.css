@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     font-family: "Arial Black";
     text-decoration: none;
+    overflow-x: hidden;
 }
 .navbar{
     padding-top: 3vh;
@@ -11,7 +12,7 @@ html, body{
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    height: 10vh;
+    height: 6vh;
     width: 100%;
     position: fixed;
     text-decoration: none;
@@ -19,6 +20,10 @@ html, body{
 .icone {
     margin-left: 30px;
 }
+.espacenavbar {
+    margin-right: 60px;
+}
+
 .marge {
     margin-right: 30px;
 }
@@ -32,7 +37,7 @@ html, body{
     display: flex;
     align-items: center;
     margin: 0px 12px;
-    }
+}
 .offreSpecial {
     color: #C41230;
 }
@@ -79,7 +84,7 @@ html, body{
 }
 
 .button1:hover {
-  opacity: 70%;
+    opacity: 70%;
 }
 .button2{
     background-color: white;
@@ -93,11 +98,11 @@ html, body{
     color: white;
 }
 .button3 {
-     background-color: #070B21;
-     color: white;
-     transition-duration: 0s;
+    background-color: #070B21;
+    color: white;
+    transition-duration: 0s;
     padding: 12px;
- }
+}
 .gras {
     font-family: "arial";
     font-size: bold;
@@ -136,6 +141,12 @@ html, body{
 .information {
     color: #B2B2B2;
     font-size: small;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+.informationTitre{
+    color: black;
+    font-size: 14px;
 }
 .titre2 {
     font-size: 35px;
@@ -222,4 +233,58 @@ html, body{
     align-items: center;
     flex-direction: column;
     margin: auto;
+}
+.barrederecherche{
+    border-right: black;
+    border-left: black;
+    border-top: black;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.boite {
+    background-color: #F3F3F3FF;
+    height: 500px;
+    width: 1200px;
+}
+.fond {
+    background-color: #F3F3F3FF;
+    height: 1000px;
+    width: 100vw;
+}
+.button5 {
+    border: #68B631 1px solid;
+    color: #68B631;
+    transition-duration: 0s;
+    padding: 12px; padding: 9px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.information1 {
+    color: #68B631;
+}
+.espacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+.icone2 {
+    margin-left: 10px;
+}
+.margeInform {
+    margin-left: 100px;
 }
